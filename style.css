@@ -1,24 +1,59 @@
-* {
-    padding: 0;
+*{
     margin: 0;
-}
-main {
-
-    height: 600px;
-    background-color: blue;
-    width: 400px;
-    border-radius: 24px;
+    padding: 0;
+ }
+ 
+ /* Se logra centrar un objeto en el medio */
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0C192C;
+ }
+ 
+ #ether{
+    width: 300px;
+    border-radius: 16px;
+ }
+ 
+ main{
+    width: 300px;
+    padding: 12px;
+    border-radius: 16px;
+    background-color: #15273F;
+ }
+ 
+ h1{
+    color: #fff;
+ }
+ 
+ footer{
+    display: flex;
+    border-top: 1px solid #fff;
+    align-items: center;
+    padding-top: 20px; 
     
-}
-
+ }
+ #our{
+    padding-top: 20px;
+    color: rgba(99,120,151,255);
+ }
+ 
+ #avatar{
+    width: 50px;
+   
     
+ }
+ #iconos{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgba(99,120,151,255);
+ }
 
-
-img{
-    border-radius: 25px;
-    width: 280px;
-    padding-top: 25px;
-    
-    
-
-}
+ #creation{
+    color: rgba(99,120,151,255);
+    padding-left: 15px;
+ }
+ 
+ 
